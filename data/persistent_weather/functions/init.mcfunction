@@ -1,0 +1,4 @@
+# Don't do setup on load because it wipes the scoreboard
+# The user prompt only seems to appear when the pack is first loaded?
+
+tellraw @a ["",{"text":"\nPersistent Weather:\n","color":"yellow","bold":true},{"text":"Note: ","color":"red","bold":false},{"text":"this data pack requires ","color":"none"},{"text":"PseudoRNG","color":"green","underlined":true,"clickEvent":{"action":"open_url","value":"https://github.com/Goodlookinguy/PseudoRNG"}},{"text":".\n","color":"none","underlined":false},{"text":"Click Here","color":"green","underlined":true,"clickEvent": {"action": "run_command", "value": "/function persistent_weather:setup"}},{"text":" to run setup.\n","color":"none","underlined":false}]
