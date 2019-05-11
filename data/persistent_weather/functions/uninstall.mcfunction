@@ -1,5 +1,7 @@
 scoreboard objectives remove ps_weather
+gamerule doWeatherCycle true
+weather clear
 
-tellraw @s ["", {"text": "\nPersistent Weather:\n", "color": "yellow", "bold": true}, "Scoreboards removed, datapack disabled.\n"]
+tellraw @s ["", {"text": "\nPersistent Weather:\n", "color": "yellow", "bold": true}, "Scoreboards removed, weather reset & datapack disabled.\n"]
 
-datapack disable "file/PersisentWeather_1.0.zip"
+datapack disable "file/PersistentWeather_1.0.zip"

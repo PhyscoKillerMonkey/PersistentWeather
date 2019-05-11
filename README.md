@@ -11,7 +11,7 @@ Uses the same timers for rain and thunderstorms as the vanilla game:
 
 This data pack currently requires the [PseudoRNG datapack](https://github.com/Goodlookinguy/PseudoRNG) to generate the countdown timers.
 
-## Installation
+## Install
 
 1. Go to Releases and download latest `.zip` file
 2. Put the downloaded `.zip` file into the `datapacks` folder of your world
@@ -19,3 +19,7 @@ This data pack currently requires the [PseudoRNG datapack](https://github.com/Go
 4. There should be a message confirmation of installation - you can also check with the `/datapack list` command to see which data packs are installed
 
 For more in-depth information take a look at the [wiki page](https://minecraft.gamepedia.com/Tutorials/Installing_a_data_pack).
+
+## Uninstall
+
+Run `/function persistent_weather:uninstall` and the data pack will remove created scoreboards and disable itself.
