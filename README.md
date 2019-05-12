@@ -13,7 +13,7 @@ This data pack currently requires the [PseudoRNG datapack](https://github.com/Go
 
 ## Install
 
-1. Go to Releases and download latest `.zip` file
+1. Go to [Releases](https://github.com/PhyscoKillerMonkey/persistent-weather/releases/latest) and download latest `.zip` file
 2. Put the downloaded `.zip` file into the `datapacks` folder of your world
 3. Load the world and either type `/reload` or press `F3+T` to reload resource/data packs
 4. There should be a message confirmation of installation - you can also check with the `/datapack list` command to see which data packs are installed
