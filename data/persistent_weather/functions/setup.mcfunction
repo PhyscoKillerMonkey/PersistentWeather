@@ -19,4 +19,4 @@ scoreboard players set RangeInputHigh PseudoRNG 180000
 function rng:get_next_range
 scoreboard players operation time_t ps_weather = RangeRNG PseudoRNG
 
-tellraw @a "Initialised Persistent Weather"
+tellraw @s "Initialised Persistent Weather"
